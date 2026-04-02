@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>iMons for Android</title>
+  <meta name="description" content="iMons - Twitter保存ランキング系サイトを快適に閲覧できるAndroidアプリ">
+  <meta name="theme-color" content="#0c0f14">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="iMons for Android">
+  <meta property="og:description" content="iMons - Twitter保存ランキング系サイトを快適に閲覧できるAndroidアプリ">
+  <meta property="og:image" content="app-icon.png">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="iMons for Android">
+  <meta name="twitter:description" content="iMons - Twitter保存ランキング系サイトを快適に閲覧できるAndroidアプリ">
+
+  <link rel="icon" href="app-icon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;600;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <nav class="topbar">
+    <div class="topbar-inner">
+      <span class="topbar-brand">iMons</span>
+      <div class="topbar-right">
+        <div class="topbar-links">
+          <a href="#features" data-i18n="nav.features">Features</a>
+          <a href="#sources" data-i18n="nav.sources">Sources</a>
+          <a href="#download" class="topbar-cta" data-i18n="nav.download">Download</a>
+        </div>
+        <div class="lang-switcher">
+          <button class="lang-btn" data-lang="ja" aria-label="Japanese">JA</button>
+          <button class="lang-btn" data-lang="en" aria-label="English">EN</button>
+          <button class="lang-btn" data-lang="zh" aria-label="Chinese">ZH</button>
+          <button class="lang-btn" data-lang="ko" aria-label="Korean">KO</button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="wrap hero-layout">
+        <img class="hero-icon" src="app-icon.png" alt="iMons App Icon" width="160" height="160">
+        <div class="hero-text">
+          <p class="hero-badge">Android</p>
+          <h1>iMons</h1>
+          <p class="hero-lead" data-i18n="hero.lead">6つのTwitter保存・ランキングサイトをひとつのアプリで。<br>検索、ランキング、ダウンロード、お気に入り管理まで。</p>
+          <div class="hero-buttons">
+            <a href="https://github.com/tqmane/iMons_web/releases/latest" class="btn btn-primary" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="20" height="20" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              <span data-i18n="hero.download">APK をダウンロード</span>
+            </a>
+            <a href="#features" class="btn btn-ghost" data-i18n="hero.features">機能を見る</a>
+          </div>
+          <p class="hero-note" data-i18n="hero.note">Android 8.0 (Oreo) 以上対応</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section class="section" id="features">
+      <div class="wrap">
+        <p class="section-label">Features</p>
+        <h2 class="section-heading" data-i18n="features.heading">快適な閲覧体験のために</h2>
+
+        <div class="feat-grid">
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+            </div>
+            <h3 data-i18n="features.home.title">ホームフィード</h3>
+            <p data-i18n="features.home.desc">リスト・グリッド・ショート形式で最新動画を閲覧。レイアウトは自由に切り替え可能。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+            </div>
+            <h3 data-i18n="features.search.title">検索</h3>
+            <p data-i18n="features.search.desc">キーワードでタグやユーザーを検索。人気順・新着順ソートで目的の動画へ素早くアクセス。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 3v18h18"/><path d="m7 14 4-4 4 4 6-6"/></svg>
+            </div>
+            <h3 data-i18n="features.ranking.title">ランキング</h3>
+            <p data-i18n="features.ranking.desc">24時間・3日・7日・週間・月間のランキングを各ソースごとにチェック。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            </div>
+            <h3 data-i18n="features.download.title">ダウンロード</h3>
+            <p data-i18n="features.download.desc">バックグラウンドダウンロード対応。キュー管理、リトライ、一括DLでオフライン視聴も快適。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+            </div>
+            <h3 data-i18n="features.player.title">ビデオプレイヤー</h3>
+            <p data-i18n="features.player.desc">フルスクリーン、PiP（ピクチャ・イン・ピクチャ）、速度調整、ループ再生をサポート。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M19 21l-7-5-7 5V5a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2z"/></svg>
+            </div>
+            <h3 data-i18n="features.favorites.title">お気に入り</h3>
+            <p data-i18n="features.favorites.desc">ユーザー・動画を保存してフォルダ管理。JSON / WiFi経由でエクスポート・インポート。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+            </div>
+            <h3 data-i18n="features.lock.title">アプリロック</h3>
+            <p data-i18n="features.lock.desc">生体認証（指紋 / 顔認証）でアプリをロック。プライバシーを確保。</p>
+          </div>
+
+          <div class="feat-card">
+            <div class="feat-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="12" cy="12" r="3"/><path d="M12 1v2m0 18v2m-9-11h2m18 0h2m-3.64-6.36-1.41 1.41M6.05 17.95l-1.41 1.41m0-12.73 1.41 1.41m11.31 11.31 1.41 1.41"/></svg>
+            </div>
+            <h3 data-i18n="features.themes.title">テーマ & アイコン</h3>
+            <p data-i18n="features.themes.desc">6種のカラーテーマと6種のアプリアイコンから自分好みにカスタマイズ。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sources -->
+    <section class="section section-alt" id="sources">
+      <div class="wrap">
+        <p class="section-label">Sources</p>
+        <h2 class="section-heading" data-i18n="sources.heading">6つの対応サイト</h2>
+        <p class="section-sub" data-i18n="sources.sub">各サイトの新着・ランキングを統合的に閲覧できます。</p>
+
+        <div class="source-list">
+          <div class="source-chip">monsnode</div>
+          <div class="source-chip">twishare</div>
+          <div class="source-chip">Twidro</div>
+          <div class="source-chip">TwiVideo</div>
+          <div class="source-chip">JAVTWI</div>
+          <div class="source-chip" data-i18n="sources.twidl">Twitter動画保管庫</div>
+        </div>
+
+        <div class="extra-grid">
+          <div class="extra-card">
+            <h4 data-i18n="sources.x.title">X (Twitter) 連携</h4>
+            <p data-i18n="sources.x.desc">Xアカウントと連携してポストから直接動画URLを取得。最大5アカウントのローテーションに対応。</p>
+          </div>
+          <div class="extra-card">
+            <h4 data-i18n="sources.wayback.title">Wayback Machine</h4>
+            <p data-i18n="sources.wayback.desc">リンク切れ時にアーカイブ版を確認。Save Page Nowでの保存にも対応。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section class="section section-download" id="download">
+      <div class="wrap download-wrap">
+        <div class="download-content">
+          <p class="section-label">Download</p>
+          <h2 class="section-heading" data-i18n="download.heading">ダウンロード</h2>
+          <p class="section-sub" data-i18n="download.sub">GitHubのリリースページからAPKをダウンロードしてインストールしてください。<br>「提供元不明のアプリ」の許可が必要です。</p>
+          <a href="https://github.com/tqmane/iMons_web/releases/latest" class="btn btn-primary btn-lg" target="_blank" rel="noreferrer">
+            <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/>
+            </svg>
+            <span data-i18n="download.btn">GitHub Releases からダウンロード</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="wrap">
+      <div class="credits">
+        <p class="section-label">Credits</p>
+        <div class="credits-grid">
+          <div class="credit-card">
+            <p class="credit-role" data-i18n="credits.original">Original Developer</p>
+            <p class="credit-name">yyyywaiwai</p>
+            <a class="credit-link" href="https://x.com/yyyyyy_public" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              <span>@yyyyyy_public</span>
+            </a>
+          </div>
+          <div class="credit-card">
+            <p class="credit-role" data-i18n="credits.fork">Android Fork Developer</p>
+            <p class="credit-name">tqmane</p>
+            <a class="credit-link" href="https://x.com/t2aman1e" target="_blank" rel="noreferrer">
+              <svg viewBox="0 0 24 24" fill="currentColor" width="14" height="14" aria-hidden="true"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+              <span>@t2aman1e</span>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p class="footer-brand">iMonos for Android</p>
+        <p class="footer-copy">&copy; 2026 yyyywaiwai (Original) &middot; tqmane (Fork)</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="i18n.js"></script>
+</body>
+</html>
