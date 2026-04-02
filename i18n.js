@@ -1,4 +1,4 @@
-/* i18n - iMonos for Android */
+/* i18n - iMons for Android */
 (function () {
   const translations = {
     ja: {
@@ -175,12 +175,12 @@
       btn.classList.toggle("active", btn.getAttribute("data-lang") === lang);
     });
 
-    try { localStorage.setItem("imonos-lang", lang); } catch (e) { /* noop */ }
+    try { localStorage.setItem("iMons-lang", lang); } catch (e) { /* noop */ }
   }
 
   // Init
   var saved = null;
-  try { saved = localStorage.getItem("imonos-lang"); } catch (e) { /* noop */ }
+  try { saved = localStorage.getItem("iMons-lang"); } catch (e) { /* noop */ }
   var initial = saved && translations[saved] ? saved : "ja";
   applyLang(initial);
 
