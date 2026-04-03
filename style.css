@@ -100,6 +100,21 @@ body {
   color: var(--text);
 }
 
+.topbar-discord {
+  display: inline-flex;
+  align-items: center;
+  color: var(--text-muted) !important;
+  transition: color 0.2s;
+}
+
+.topbar-discord:hover {
+  color: #5865F2 !important;
+}
+
+.topbar-discord svg {
+  display: block;
+}
+
 .topbar-cta {
   background: var(--accent-dim);
   color: var(--accent) !important;
@@ -265,6 +280,17 @@ body {
   font-size: 1rem;
 }
 
+.btn-discord {
+  background: #5865F2;
+  color: #fff;
+}
+
+.btn-discord:hover {
+  background: #4752C4;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 24px rgba(88, 101, 242, 0.3);
+}
+
 /* ---- Sections ---- */
 
 .section {
@@ -427,6 +453,13 @@ body {
   margin-top: 8px;
 }
 
+.download-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 /* ---- Footer ---- */
 
 .footer {
@@ -481,6 +514,18 @@ body {
 
 .credit-link:hover {
   color: var(--text);
+}
+
+.credit-card-discord {
+  border-color: rgba(88, 101, 242, 0.3);
+}
+
+.credit-card-discord:hover {
+  border-color: #5865F2;
+}
+
+.credit-link-discord:hover {
+  color: #5865F2;
 }
 
 .footer-bottom {

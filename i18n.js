@@ -36,8 +36,11 @@
       "download.heading": "ダウンロード",
       "download.sub": "GitHubのリリースページからAPKをダウンロードしてインストールしてください。<br>「提供元不明のアプリ」の許可が必要です。",
       "download.btn": "GitHub Releases からダウンロード",
+      "download.discord": "Discord サポート",
       "credits.original": "オリジナル開発者",
-      "credits.fork": "Android フォーク開発者"
+      "credits.fork": "Android フォーク開発者",
+      "credits.support": "サポート",
+      "credits.discord_join": "サーバーに参加"
     },
 
     en: {
@@ -75,8 +78,11 @@
       "download.heading": "Download",
       "download.sub": "Download the APK from the GitHub Releases page and install it.<br>You need to allow \"Install from unknown sources\" on your device.",
       "download.btn": "Download from GitHub Releases",
+      "download.discord": "Discord Support",
       "credits.original": "Original Developer",
-      "credits.fork": "Android Fork Developer"
+      "credits.fork": "Android Fork Developer",
+      "credits.support": "Support",
+      "credits.discord_join": "Join Server"
     },
 
     zh: {
@@ -114,8 +120,11 @@
       "download.heading": "下载",
       "download.sub": "从 GitHub Releases 页面下载 APK 并安装。<br>需要在设备上允许\"安装来自未知来源的应用\"。",
       "download.btn": "从 GitHub Releases 下载",
+      "download.discord": "Discord 支持",
       "credits.original": "原始开发者",
-      "credits.fork": "Android 分支开发者"
+      "credits.fork": "Android 分支开发者",
+      "credits.support": "支持",
+      "credits.discord_join": "加入服务器"
     },
 
     ko: {
@@ -153,8 +162,11 @@
       "download.heading": "다운로드",
       "download.sub": "GitHub Releases 페이지에서 APK를 다운로드하여 설치하세요.<br>기기에서 \"출처를 알 수 없는 앱 설치\"를 허용해야 합니다.",
       "download.btn": "GitHub Releases에서 다운로드",
+      "download.discord": "Discord 지원",
       "credits.original": "원본 개발자",
-      "credits.fork": "Android 포크 개발자"
+      "credits.fork": "Android 포크 개발자",
+      "credits.support": "지원",
+      "credits.discord_join": "서버 참여"
     }
   };
 
