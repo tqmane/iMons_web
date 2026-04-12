@@ -82,7 +82,9 @@
       "credits.original": "Original Developer",
       "credits.fork": "Android Fork Developer",
       "credits.support": "Support",
-      "credits.discord_join": "Join Server"
+      "credits.discord_join": "Join Server",
+      "footer.privacy": "Privacy Policy",
+      "footer.terms": "Terms of Service"
     },
 
     zh: {
@@ -168,7 +170,9 @@
       "credits.original": "원본 개발자",
       "credits.fork": "Android 포크 개발자",
       "credits.support": "지원",
-      "credits.discord_join": "서버 참여"
+      "credits.discord_join": "서버 참여",
+      "footer.privacy": "개인정보 처리방침",
+      "footer.terms": "이용약관"
     }
   };
 
