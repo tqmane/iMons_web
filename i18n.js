@@ -124,7 +124,9 @@
       "credits.original": "原始开发者",
       "credits.fork": "Android 分支开发者",
       "credits.support": "支持",
-      "credits.discord_join": "加入服务器"
+      "credits.discord_join": "加入服务器",
+      "footer.privacy": "隐私政策",
+      "footer.terms": "服务条款"
     },
 
     ko: {
